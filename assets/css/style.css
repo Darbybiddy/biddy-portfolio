@@ -1,7 +1,4 @@
-: root{
-    --font:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,31 +14,22 @@ header {
     padding: 30px 10px;
     color:rgb(60, 192, 192);
     background-image:url(/assets/images/img004\ copy.png);
-    background-position: 20%;
     background-attachment: fixed;
     background-size:90%;
-
-
-  
-    
-
 }
 
 header h1 {
     font-size: 50px;
     border-style: solid;
-    padding:10px;
-    background-color: rgb(80, 80, 80);
-    
-    
+    padding: 10px;
+    background-color: rgb(80, 80, 80);  
 }
 
 header nav {
     padding:20px 35px;
     display:flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 header nav ul  {
@@ -62,43 +50,54 @@ header nav ul li a {
 .image-banner {
     height: 350px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     background-image:url(/assets/images/img004\ copy.png);
-    background-position: 20%;
     background-attachment: fixed;
     background-size:90%;
-
-
 }
 
 .image-banner h2 {
     color: rgb(60, 192, 192);
-    font-size: 48px;
+    font-size: 40px;
     position:relative;
-    top:270px;
+    top:250px;
     float:right;
-    padding-right:50px;
+    padding:10px;
     background-color: rgb(80, 80, 80);
+    margin:0px 60px;
+    text-align: center;
+    border-style: solid;
 }
 
 main {
-    width:100%;
     background-color: gray;
-    display: grid;
-    grid-template-rows:repeat(5);
-
-}
-.content {
-    padding:30px;
-    height: 300px;
-    margin-bottom: 20px;
 }
 
-.content h2 {
-    font-size: 35px;
+.title {
+    width: 20%;
+    border-right: 3px solid rgb(60, 192, 192);
+    text-align: right;
+    margin: 10px 0;
+    padding-right: 20px;
+    min-height: 100px; 
 }
 
-.content p {
+.title h2 {
+display: inline;
+padding-top: 30px;
+}
+
+.content{
+    display: flex;
+}
+
+.description {
+    padding: 20px 50px 20px 20px;
+    width: 75%;
     font-size: 20px;
+    text-align:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
-
