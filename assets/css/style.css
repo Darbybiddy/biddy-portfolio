@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+ 
 }
 
 header {
@@ -12,13 +13,11 @@ header {
   align-items: center;
   padding: 30px 10px;
   color: rgb(60, 192, 192);
-  background-image: url(/assets/images/img004\ copy.png);
+  background-image: url(/assets/images/img004.png);
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
-
 
 header h1 {
   font-size: 50px;
@@ -32,6 +31,7 @@ header h1 {
   text-decoration: none;
   border-bottom: 3px solid rgb(60, 192, 192);
   padding: 5px;
+  margin: 5px;
 }
 
 header nav {
@@ -40,7 +40,6 @@ header nav {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 
 header nav ul {
   display: flex;
@@ -56,7 +55,6 @@ header nav ul li a {
   font-size: 20px;
   color: rgb(60, 192, 192);
   text-decoration: none;
-
 }
 
 .image-banner h2 {
@@ -71,7 +69,7 @@ header nav ul li a {
   height: 400px;
   width: 100%;
   margin-bottom: 10px;
-  background-image: url(/assets/images/img004\ copy.png);
+  background-image: url(/assets/images/img004.png);
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
@@ -98,43 +96,32 @@ header nav ul li a {
 
 .title h2 {
   display: inline;
-
 }
-
-.text-title{
-   
-}
-
 
 .description {
-  width: 60%;
+  
   font-size: 20px;
   display: flex;
   text-align: center;
-  justify-content: space-between;
-  
-
+  justify-content: space-evenly;
 }
 
-.selfie{
-    height: 300px;   
-}
-.about{
-    width: 70%;
-    font-size: 20px;
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
+.selfie {
+  height: 300px;
 }
 
-
-.description p{
-display: flex;
-justify-content: space-evenly;
-flex-basis: 60%;
-padding:10px;
-align-items: center;
-
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(60, 192, 192);
+  margin-left: 22px;
+  width: 601px;
+  border: 3px solid black;
+}
+.description p {
+  display: flex;
+  flex-basis: 60%;
+  align-items: center;
 }
 
 .content {
@@ -152,12 +139,13 @@ align-items: center;
 }
 
 .projects {
-  margin: 7px;
-  
-  padding: 15%;
+  background-color: gray;
+  margin: 10px;
+  padding: 30% 8% 6% 0%;
   flex-basis: 80%;
   border: 3px solid rgb(60, 192, 192);
-  justify-content: flex-start;
+  background-image: url(/assets/images/horiseon.png);
+  background-size: cover;
 }
 
 .projects p {
@@ -167,9 +155,9 @@ align-items: center;
 }
 
 .small {
-display: flex;
+  display: flex;
   margin: 8px;
-  padding: 16% 8% 2% 0%;
+  padding: 16% 8% 3% 0%;
   flex-basis: 39%;
   border: 3px solid rgb(60, 192, 192);
   justify-content: space-between;
@@ -183,8 +171,8 @@ display: flex;
 }
 
 #graphic {
-background-color:rgb(60, 192, 192 0.8);
-  background-image: url(/assets/images/random\ 1\ copy.png);
+  background-color: rgb(60, 192, 192 0.8);
+  background-image: url(/assets/images/random1.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -193,7 +181,7 @@ background-color:rgb(60, 192, 192 0.8);
 }
 
 #photography {
-  background-image: url(/assets/images/img039\ copy.jpg);
+  background-image: url(/assets/images/img039.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -232,7 +220,7 @@ background-color:rgb(60, 192, 192 0.8);
 
 @media screen and (max-width: 2048px) {
   .image-banner {
-    height: 626px;
+    height: 340px;
     width: 100%;
   }
 }
@@ -248,10 +236,19 @@ background-color:rgb(60, 192, 192 0.8);
     text-align: center;
   }
 
+.nav a{
+  border-bottom: 3px solid rgb(60, 192, 192);
+  text-decoration: none;
+  padding: 5px;
+  color: rgb(60, 192, 192);
+  margin: 5px;
+}
+
   header nav ul {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
+    
   }
 
   header nav ul li a {
@@ -285,61 +282,4 @@ background-color:rgb(60, 192, 192 0.8);
     display: flex;
   }
   /* this will be applied on any screen smaller than 575px */
-}
-
-.project-container{
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.projects{
-    background-color: gray;
-    margin: 10px;
-    padding: 15%;
-    flex-basis: 80%;
-    border: 3px solid rgb(60, 192, 192);
-    
-}
-.small{
-    background-color: gray;
-    margin: 10px;
-    padding: 8%;
-    flex-basis: 39%;
-    border: 3px solid rgb(60, 192, 192);
-}
-
-.logo{
-    background-color: rgb(60, 192, 192);
-    padding: 10px 0px 10px 10px;
-    font-size:25px;
-
-}
-
-.contact-info{
-    padding:20px 35px;
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    
-}
-
-.contact-info ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
-    
-}
-
-.contact-info ul li a {
-    padding: 10px;
-    font-size: 15px; 
-    color:rgb(60, 192, 192);
-    text-decoration: none;
-    
-
-
 }
