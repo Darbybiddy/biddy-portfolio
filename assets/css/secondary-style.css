@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-decoration: none;
+    display:flex
+}
+.header-name h1{
+color:aqua ;
+text-decoration: none;
+}
+
+nav{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+}
