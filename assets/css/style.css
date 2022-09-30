@@ -172,7 +172,7 @@ header nav ul li a {
 
 #graphic {
   background-color: rgb(60, 192, 192 0.8);
-  background-image: url(/assets/images/random1.png);
+  background-image: url(./assets/images/random1.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -181,19 +181,19 @@ header nav ul li a {
 }
 
 #photography {
-  background-image: url(/assets/images/img039.jpg);
+  background-image: url(./assets/images/img039.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #furniture {
-  background-image: url(/assets/images/DSC0903.jpg);
+  background-image: url(./assets/images/DSC0903.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #logo {
-  background-image: url(/assets/images/Eriq2logo.jpg);
+  background-image: url(./assets/images/Eriq2logo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
